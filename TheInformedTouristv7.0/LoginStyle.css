@@ -1,0 +1,113 @@
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#logo{
+    margin:10px auto 0;
+    width: 250px;
+    display:block;
+    background-color: white;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    width: 1000px;
+    display:block;
+    margin:10px auto 0;
+    
+}
+
+ul {
+    list-style-image: url(images/list-box.png);
+    line-height: 1.5em;
+    
+}
+
+body{
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Rancho', cursive;
+    font-size: 25px;
+}
+
+button {
+    background-color: #b28cea;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Rancho', cursive;
+    font-size: 25px;
+}
+
+#nodeco:link {
+    text-decoration: none;
+    color: black;
+}
+
+#nodeco:visited {
+    text-decoration: none;
+}
+
+.list-no:link {
+    text-decoration: none;
+}
+
+.list-no:visited {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
